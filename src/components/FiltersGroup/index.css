@@ -1,0 +1,40 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.category-container-list {
+  list-style-type: none;
+}
+.rating-container-list {
+  list-style-type: none;
+}
+.search-container {
+  background-color: #f1f5f9;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  border: none;
+  background-color: transparent;
+}
+.rating-image {
+  height: 30px;
+}
+.clear-button {
+  background-color: transparent;
+  color: #0967d2;
+  border-color: #0967d2;
+}
