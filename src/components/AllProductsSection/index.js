@@ -119,7 +119,7 @@ class AllProductsSection extends Component {
         isLoading: false,
       })
     }
-    if (response.status === 401) {
+    else{
       this.setState({failure: true})
     }
   }
